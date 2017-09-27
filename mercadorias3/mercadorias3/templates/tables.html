@@ -1,0 +1,33 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row center">
+        <div class="col-md-10 centered">
+            <h4 class="heading"><strong>Lista de Mercadorias Cadastradas</strong> <span></span></h4>
+
+            <table class="table table-hover" id="tabelaPS">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Tipo </th>
+                        <th>Nome </th>
+                        <th>Quantidade</th>
+                        <th>Preço (R$)</th>
+                        <th>Tipo do Negócio</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}
+    <script src="/static/scripts/getmercadorias.js"></script>
+    <script src="/static/scripts/jquery-1.10.2.min.js"></script>
+{% endblock %}

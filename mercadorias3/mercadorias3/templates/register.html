@@ -1,0 +1,64 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row center">
+        <div class="col-md-6 centered">
+            <div class="form_main">
+                <h4 class="heading"><strong>Formulário de Cadastro de Mercadoria</strong> <span></span></h4>
+                <div class="form">
+                    <form action="/api/mercadoria" method="post" id="contactFrm" class="form-horizontal" name="contactFrm">
+                        <div class="form-group">
+                            <label for="codMer" class="control-label col-sm-3"><small>Código:</small></label>
+                            <div class="col-sm-8">
+                                <input type="text" placeholder="Ex.: 152060" value="" id="codMer" name="codMer" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="tipoMerc" class="control-label col-sm-3"><small>Tipo de Mercadoria:</small></label>
+                            <div class="col-sm-8">
+                                <input type="text" placeholder="Ex.: Alimento" value="" id="tipoMer" name="tipoMer" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="nomeMer" class="control-label col-sm-3"><small>Nome:</small></label>
+                            <div class="col-sm-8">
+                                <input type="text" placeholder="Ex.: Maçã" value="" id="nomeMer" name="nomeMer" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="qtdMer" class="control-label col-sm-3"><small>Quantidade:</small></label>
+                            <div class="col-sm-8">
+                                <input type="number" step="1" min="0" max="999999" placeholder="Ex.: 10" value="" id="qtdMer" name="qtdMer" class="form-control">
+                            </div>
+                            <label class="control-label">un.</label>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="precoMer" class="control-label col-sm-3"><small>Preço:</small></label>
+                            <div class="col-sm-8">
+                                <input type="text" placeholder="Ex.: 15,00" value="" id="precoMer" name="precoMer" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-3"><small>Tipo do Negócio:</small></label>
+                            <div class="col-sm-8">
+                                <label class="radio-inline"><input type="radio" name="tNegocio" value="0" checked>Compra</label>
+                                <label class="radio-inline"><input type="radio" name="tNegocio" value="1">Venda</label>
+                            </div>
+                        </div>
+
+                        <center><button type="submit" name="submit" class="btn txt2">Registrar</button></center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block scripts %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <script src="/static/scripts/index.js"></script>
+{% endblock %}

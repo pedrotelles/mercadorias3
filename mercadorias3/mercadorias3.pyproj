@@ -27,6 +27,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="mercadorias3\models.py" />
     <Compile Include="runserver.py" />
     <Compile Include="mercadorias3\__init__.py" />
     <Compile Include="mercadorias3\views.py" />
@@ -40,6 +41,12 @@
     <Folder Include="mercadorias3\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="mercadorias3\static\content\index.css" />
+    <Content Include="mercadorias3\static\scripts\getmercadorias.js" />
+    <Content Include="mercadorias3\static\scripts\index.js" />
+    <Content Include="mercadorias3\templates\layout.html" />
+    <Content Include="mercadorias3\templates\register.html" />
+    <Content Include="mercadorias3\templates\tables.html" />
     <Content Include="requirements.txt" />
     <Content Include="mercadorias3\static\content\bootstrap.css" />
     <Content Include="mercadorias3\static\content\bootstrap.min.css" />
@@ -63,10 +70,6 @@
     <Content Include="mercadorias3\static\scripts\respond.js" />
     <Content Include="mercadorias3\static\scripts\respond.min.js" />
     <Content Include="mercadorias3\static\scripts\_references.js" />
-    <Content Include="mercadorias3\templates\about.html" />
-    <Content Include="mercadorias3\templates\contact.html" />
-    <Content Include="mercadorias3\templates\index.html" />
-    <Content Include="mercadorias3\templates\layout.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 

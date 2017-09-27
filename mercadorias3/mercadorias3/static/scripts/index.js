@@ -1,0 +1,6 @@
+$(document).ready(function(){
+
+    $('#precoMer').mask("#.##0,00", {reverse: true});
+    
+    
+})
