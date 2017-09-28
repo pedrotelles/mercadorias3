@@ -1,4 +1,4 @@
-$document.ready(function() {
+$().ready(function() {
     $('#cadMercadoria').validate({
         rules: {
             codMer: "required",
@@ -24,26 +24,26 @@ $document.ready(function() {
             }
         },
         messages: {
-            codMer: "Campo Obrigatório.",
+            codMer: "Campo Obrigat&oacute;rio.",
             tipoMer: {
-                required: "Campo Obrigatório.",
-                minlength: "Esse campo precisa de no mínimo dois caracteres."
+                required: "Campo Obrigat&oacute;rio.",
+                minlength: "Esse campo precisa de no m&iacute;nimo dois caracteres."
             },
             nomeMer: {
-                required: "Campo Obrigatório.",
-                minlength: "Esse campo precisa de no mínimo dois caracteres."
+                required: "Campo Obrigat&oacute;rio.",
+                minlength: "Esse campo precisa de no m&iacute;nimo dois caracteres."
             },
             qtdMer: {
-                required: "Campo Obrigatório.",
-                min: "Esse campo precisa de um valor de no mínimo 1 mercadoria",
-                max: "Esse campo precisa de um valor de no máximo 9999999 mercadorias"
+                required: "Campo Obrigat&oacute;rio.",
+                min: "Esse campo precisa de um valor de no m&iacute;nimo 1 mercadoria",
+                max: "Esse campo precisa de um valor de no m&aacute;ximo 9999999 mercadorias"
             },
             precoMer: {
-                required: "Campo Obrigatório.",
-                rangelength: "Esse campo precisa de um valor de no mínimo R$ 0,01 ou de um valor de no máximo R$ 9999999,99",
+                required: "Campo Obrigat&oacute;rio.",
+                rangelength: "Esse campo precisa de um valor de no m&iacute;nimo R$ 0,01 ou de um valor de no m&aacute;ximo R$ 9999999,99",
             },
             tNegocio: {
-                required: "Campo Obrigatório.",
+                required: "Campo Obrigat&oacute;rio.",
             }
         }
     })
