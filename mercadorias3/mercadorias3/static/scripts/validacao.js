@@ -17,8 +17,7 @@ $document.ready(function() {
             },
             precoMer: {
                 required: true,
-                min: 0.01,
-                max: 9999999.99
+                rangelength: [0.01,9999999.99]
             },
             tNegocio: {
                 required: true,
@@ -28,21 +27,20 @@ $document.ready(function() {
             codMer: "Campo Obrigatório.",
             tipoMer: {
                 required: "Campo Obrigatório.",
-                minlength: 2
+                minlength: "Esse campo precisa de no mínimo dois caracteres."
             },
             nomeMer: {
                 required: "Campo Obrigatório.",
-                minlength: 2
+                minlength: "Esse campo precisa de no mínimo dois caracteres."
             },
             qtdMer: {
                 required: "Campo Obrigatório.",
-                min: 0,
-                max: 9999999
+                min: "Esse campo precisa de um valor de no mínimo 1 mercadoria",
+                max: "Esse campo precisa de um valor de no máximo 9999999 mercadorias"
             },
             precoMer: {
                 required: "Campo Obrigatório.",
-                min: 0.01,
-                max: 9999999.99
+                rangelength: "Esse campo precisa de um valor de no mínimo R$ 0,01 ou de um valor de no máximo R$ 9999999,99",
             },
             tNegocio: {
                 required: "Campo Obrigatório.",
