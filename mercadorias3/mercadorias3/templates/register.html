@@ -7,7 +7,7 @@
             <div class="form_main">
                 <h4 class="heading"><strong>Formulário de Cadastro de Mercadoria</strong> <span></span></h4>
                 <div class="form">
-                    <form action="/api/mercadoria" method="post" id="contactFrm" class="form-horizontal" name="contactFrm">
+                    <form action="/api/mercadoria" method="post" id="cadMercadoria" class="form-horizontal" name="cadMercadoria">
                         <div class="form-group">
                             <label for="codMer" class="control-label col-sm-3"><small>Código:</small></label>
                             <div class="col-sm-8">
@@ -61,4 +61,6 @@
 {% block scripts %}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
     <script src="/static/scripts/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+    <script src="/static/scripts/validacao.js"></script>
 {% endblock %}

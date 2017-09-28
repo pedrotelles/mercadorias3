@@ -14,7 +14,7 @@
     <LaunchProvider>Web launcher</LaunchProvider>
     <WebBrowserUrl>http://localhost</WebBrowserUrl>
     <OutputPath>.</OutputPath>
-    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <SuppressCollectPythonCloudServiceFiles>false</SuppressCollectPythonCloudServiceFiles>
     <Name>mercadorias3</Name>
     <RootNamespace>mercadorias3</RootNamespace>
   </PropertyGroup>
@@ -33,6 +33,7 @@
     <Compile Include="mercadorias3\views.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="bin\" />
     <Folder Include="mercadorias3\" />
     <Folder Include="mercadorias3\static\" />
     <Folder Include="mercadorias3\static\content\" />
@@ -41,12 +42,22 @@
     <Folder Include="mercadorias3\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\ConfigureCloudService.ps1" />
+    <Content Include="bin\ps.cmd" />
+    <Content Include="bin\readme.html">
+      <SubType>WebBrowser</SubType>
+    </Content>
+    <Content Include="bin\web.config" />
     <Content Include="mercadorias3\static\content\index.css" />
     <Content Include="mercadorias3\static\scripts\getmercadorias.js" />
     <Content Include="mercadorias3\static\scripts\index.js" />
+    <Content Include="mercadorias3\static\scripts\validacao.js" />
     <Content Include="mercadorias3\templates\layout.html" />
     <Content Include="mercadorias3\templates\register.html" />
     <Content Include="mercadorias3\templates\tables.html" />
+    <Content Include="web.config" />
+    <None Include="ProcessoSeletivoPedT - Web Deploy.pubxml" />
+    <None Include="mercadoriaspsPT - Web Deploy.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="mercadorias3\static\content\bootstrap.css" />
     <Content Include="mercadorias3\static\content\bootstrap.min.css" />
