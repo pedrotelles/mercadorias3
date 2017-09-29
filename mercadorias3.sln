@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "mercadorias3", "mercadorias3\mercadorias3.pyproj", "{62ADBAF4-E26C-4540-9D69-FB2CD3398968}"
 EndProject
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "mercadorias3.Azure", "mercadorias3.Azure\mercadorias3.Azure.ccproj", "{6596B6BE-E169-4208-A01A-B6991E58EEF4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{62ADBAF4-E26C-4540-9D69-FB2CD3398968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62ADBAF4-E26C-4540-9D69-FB2CD3398968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62ADBAF4-E26C-4540-9D69-FB2CD3398968}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6596B6BE-E169-4208-A01A-B6991E58EEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6596B6BE-E169-4208-A01A-B6991E58EEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6596B6BE-E169-4208-A01A-B6991E58EEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6596B6BE-E169-4208-A01A-B6991E58EEF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

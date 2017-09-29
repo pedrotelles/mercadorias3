@@ -56,7 +56,6 @@
     <Content Include="mercadorias3\templates\register.html" />
     <Content Include="mercadorias3\templates\tables.html" />
     <Content Include="web.config" />
-    <None Include="ProcessoSeletivoPedT - Web Deploy.pubxml" />
     <None Include="mercadoriaspsPT - Web Deploy.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="mercadorias3\static\content\bootstrap.css" />
