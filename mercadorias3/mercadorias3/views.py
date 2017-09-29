@@ -5,7 +5,7 @@ Routes and views for the flask application.
 """
 
 from datetime import datetime
-from flask import render_template, request, redirect, url_for
+from flask import render_template, request, url_for
 from mercadorias3 import app,db
 from flask.json import jsonify
 import mercadorias3.models as models
@@ -87,4 +87,4 @@ def adicionaMercadoria():
     todo = models.ProcessoSeletivo(codMer=codMer,tipoMer=tipoMer,nomeMer = nomeMer,qtdMer=qtdMer,preco=precoMer,tNegocio = tNegocio)
     db.session.add(todo)
     db.session.commit()
-    return redirect(url_for('tables')), 200
+    return jsonify({'success': 'true'}), 200
