@@ -51,12 +51,13 @@
     <Content Include="mercadorias3\static\content\index.css" />
     <Content Include="mercadorias3\static\scripts\getmercadorias.js" />
     <Content Include="mercadorias3\static\scripts\index.js" />
+    <Content Include="mercadorias3\static\scripts\postForm.js" />
     <Content Include="mercadorias3\static\scripts\validacao.js" />
     <Content Include="mercadorias3\templates\layout.html" />
     <Content Include="mercadorias3\templates\register.html" />
     <Content Include="mercadorias3\templates\tables.html" />
-    <Content Include="web.config" />
     <None Include="mercadoriaspsPT - Web Deploy.pubxml" />
+    <Content Include="web.config" />
     <Content Include="requirements.txt" />
     <Content Include="mercadorias3\static\content\bootstrap.css" />
     <Content Include="mercadorias3\static\content\bootstrap.min.css" />
